@@ -21,11 +21,6 @@ section h2 {
   background-color: rgb(206, 247, 247);
 }
 
-p {
-  /* text-align:justify; */
-  font-size: 16px;
-}
-
 .box:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
