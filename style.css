@@ -45,6 +45,27 @@ p {
   border: solid;
 }
 
+a:link {
+  color: #1a0dab;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #4B0082;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(255, 0, 0, 0.902);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #ff7f50;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .biodata:hover, .icon:hover, .deskripsi:hover, .biografi:hover, .pengalaman:hover, .organisasi:hover, .pendidikan:hover, .skill:hover {
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
