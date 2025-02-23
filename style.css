@@ -51,7 +51,7 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: rgba(255, 0, 0, 0.902);
+  color: #ff7f50;
   background-color: transparent;
   text-decoration: underline;
 }
