@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+section h2 {
+  color:#4CAF50;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(206, 247, 247);
+}
+
+p {
+  /* text-align:justify; */
+  font-size: 16px;
+}
+
+.box:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.biodata-image {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.biodata, .icon, .deskripsi, .biografi, .pengalaman, .organisasi, .pendidikan, .skill {
+  margin: 20px;
+  padding: 10px;
+  background-color:rgb(206, 247, 247);
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border: solid;
+}
+
+.biodata:hover, .icon:hover, .deskripsi:hover, .biografi:hover, .pengalaman:hover, .organisasi:hover, .pendidikan:hover, .skill:hover {
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  display:flex;
+  border: solid;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.pengalaman-organisasi {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
